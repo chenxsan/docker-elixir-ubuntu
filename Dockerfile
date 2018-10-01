@@ -19,6 +19,9 @@ RUN \
   apt-get update -y && \
   apt-get install -y erlang elixir
 
+RUN mix local.rebar --force && \
+  mix local.hex --force
+
 # Install nodejs
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt-get install -y nodejs
