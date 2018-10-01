@@ -1,1 +1,1 @@
-Ubuntu 16.04 image with elixir.
+Ubuntu 16.04 image with elixir, nodejs, phoenixframework.
